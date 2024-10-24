@@ -1,0 +1,32 @@
+body {
+    padding-top: 100px; 
+    padding-bottom: 100px; 
+}
+
+.fixed-top-div {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1030;
+}
+
+.fixed-bottom-div {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1030;
+}
+
+.content {
+    height: 1500px; 
+}
+
+h2 {
+    font-size: 1.5rem; /* Smaller heading size */
+}
+
+.bg-custom {
+    background-color: #06284c; /* Change this to your desired color */
+}
